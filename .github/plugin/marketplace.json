@@ -1,0 +1,144 @@
+{
+  "name": "thomasmartinsen",
+  "owner": {
+    "name": "Thomas Martinsen"
+  },
+  "metadata": {
+    "description": "Thomas Martinsen's content and advisory agent plugins.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ai-daily-post",
+      "description": "Write a short, factual daily AI news article for Twoday employees, followed by a brief perspective from Thomas Martinsen.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/ai-daily-post"
+      }
+    },
+    {
+      "name": "chief-of-staff",
+      "description": "Review Thomas Martinsen's commitments, calendar capacity, priorities, and weekly plans to protect time, focus, family, and recovery.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/chief-of-staff"
+      }
+    },
+    {
+      "name": "content-repurposer",
+      "description": "Adapt Thomas Martinsen's existing articles, talks, transcripts, and notes into faithful channel-specific content without inventing claims.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/content-repurposer"
+      }
+    },
+    {
+      "name": "health-guardian",
+      "description": "Review Thomas Martinsen's workload, sleep, recovery, travel, and family balance to support sustainable wellbeing without providing medical diagnosis or treatment.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/health-guardian"
+      }
+    },
+    {
+      "name": "innovation-scout",
+      "description": "Research emerging technologies, weak signals, AI trends, and future scenarios, then propose evidence-backed experiments and thought leadership opportunities for Thomas Martinsen.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/innovation-scout"
+      }
+    },
+    {
+      "name": "linkedin-writer",
+      "description": "Draft and refine practical LinkedIn posts in Thomas Martinsen's personal voice about agentic engineering, Microsoft technologies, and technology evangelism.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/linkedin-writer"
+      }
+    },
+    {
+      "name": "opportunity-filter",
+      "description": "Evaluate invitations, projects, speaking engagements, and new opportunities for Thomas Martinsen against strategic value, time cost, energy, and displaced commitments.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/opportunity-filter"
+      }
+    },
+    {
+      "name": "relationship-manager",
+      "description": "Review relationship continuity, prioritize thoughtful follow-ups, and draft reconnections or introductions for Thomas Martinsen using authorized context and consent.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/relationship-manager"
+      }
+    },
+    {
+      "name": "strategic-advisor",
+      "description": "Challenge assumptions, assess technology and business shifts, compare strategic options, and recommend evidence-backed experiments and long-term decisions for Thomas Martinsen.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/strategic-advisor"
+      }
+    },
+    {
+      "name": "technical-article-writer",
+      "description": "Create source-backed tutorials, explainers, and technical articles on agentic engineering for Thomas Martinsen's developer audience.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/technical-article-writer"
+      }
+    },
+    {
+      "name": "topic-researcher",
+      "description": "Research timely, source-backed content ideas and editorial briefs for Thomas Martinsen's Twoday evangelism, Microsoft MVP work, and agentic engineering community.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/topic-researcher"
+      }
+    },
+    {
+      "name": "video-scriptwriter",
+      "description": "Write recordable short-form videos, technical explainers, and demo scripts about agentic engineering for Thomas Martinsen.",
+      "version": "1.0.0",
+      "source": {
+        "source": "github",
+        "repo": "thomasmartinsen/agents",
+        "ref": "main",
+        "path": "plugins/video-scriptwriter"
+      }
+    }
+  ]
+}
