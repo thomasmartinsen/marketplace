@@ -1,0 +1,200 @@
+{
+  "name": "thomasmartinsen",
+  "interface": {
+    "displayName": "Thomas Martinsen"
+  },
+  "plugins": [
+    {
+      "name": "ai-daily-post",
+      "description": "Write a short, factual daily AI news article for Twoday employees, followed by a brief perspective from Thomas Martinsen.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/ai-daily-post"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "chief-of-staff",
+      "description": "Review Thomas Martinsen's commitments, calendar capacity, priorities, and weekly plans to protect time, focus, family, and recovery.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/chief-of-staff"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "content-repurposer",
+      "description": "Adapt Thomas Martinsen's existing articles, talks, transcripts, and notes into faithful channel-specific content without inventing claims.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/content-repurposer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "health-guardian",
+      "description": "Review Thomas Martinsen's workload, sleep, recovery, travel, and family balance to support sustainable wellbeing without providing medical diagnosis or treatment.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/health-guardian"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "innovation-scout",
+      "description": "Research emerging technologies, weak signals, AI trends, and future scenarios, then propose evidence-backed experiments and thought leadership opportunities for Thomas Martinsen.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/innovation-scout"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "linkedin-writer",
+      "description": "Draft and refine practical LinkedIn posts in Thomas Martinsen's personal voice about agentic engineering, Microsoft technologies, and technology evangelism.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/linkedin-writer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "opportunity-filter",
+      "description": "Evaluate invitations, projects, speaking engagements, and new opportunities for Thomas Martinsen against strategic value, time cost, energy, and displaced commitments.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/opportunity-filter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "relationship-manager",
+      "description": "Review relationship continuity, prioritize thoughtful follow-ups, and draft reconnections or introductions for Thomas Martinsen using authorized context and consent.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/relationship-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "strategic-advisor",
+      "description": "Challenge assumptions, assess technology and business shifts, compare strategic options, and recommend evidence-backed experiments and long-term decisions for Thomas Martinsen.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/strategic-advisor"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "technical-article-writer",
+      "description": "Create source-backed tutorials, explainers, and technical articles on agentic engineering for Thomas Martinsen's developer audience.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/technical-article-writer"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "topic-researcher",
+      "description": "Research timely, source-backed content ideas and editorial briefs for Thomas Martinsen's Twoday evangelism, Microsoft MVP work, and agentic engineering community.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/topic-researcher"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
+      "name": "video-scriptwriter",
+      "description": "Write recordable short-form videos, technical explainers, and demo scripts about agentic engineering for Thomas Martinsen.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/video-scriptwriter"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

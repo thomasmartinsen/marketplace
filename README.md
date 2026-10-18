@@ -1,9 +1,9 @@
 # Thomas Martinsen's plugin marketplace
 
-Independently installable GitHub Copilot CLI agents for content creation,
-research, strategy, capacity, relationships, and wellbeing.
+Independently installable GitHub Copilot CLI agents and Codex skills for content
+creation, research, strategy, capacity, relationships, and wellbeing.
 
-## Install
+## Install in Copilot CLI
 
 ```sh
 copilot plugin marketplace add thomasmartinsen/marketplace
@@ -15,6 +15,25 @@ Start a new Copilot CLI session and select the installed agent with `/agent`.
 Install any of the plugins below using `<plugin-id>@thomasmartinsen`.
 Both this marketplace and the source repository are private; you need GitHub
 access to both. Registration does not install any agents automatically.
+
+## Install in Codex
+
+```sh
+codex plugin marketplace add thomasmartinsen/marketplace
+codex plugin list --marketplace thomasmartinsen --available --json
+codex plugin add linkedin-writer@thomasmartinsen
+```
+
+Start a new Codex session and ask it to use the installed plugin's skill.
+The same plugin IDs below work in either client. Codex exposes these roles as
+skills, not native custom subagents. Each skill includes the source profile's
+instructions and the same written tool boundaries as its standalone Codex
+agent profile; Codex does not enforce Copilot's per-tool allowlists.
+
+If adding the marketplace previously failed with "marketplace root does not
+contain a supported manifest", retry `codex plugin marketplace add
+thomasmartinsen/marketplace`. The repository now includes Codex's
+`.agents/plugins/marketplace.json` in addition to Copilot's catalog.
 
 | Plugin ID | Purpose |
 | --- | --- |
@@ -43,20 +62,29 @@ Repeat the update command for each installed plugin you want to refresh, or
 use `copilot plugin update --all` to update all installed plugins, including
 those from other marketplaces.
 
+For Codex, refresh the catalog with `codex plugin marketplace upgrade
+thomasmartinsen`, then use `codex plugin add <plugin-id>@thomasmartinsen` to
+install or refresh a plugin. Remove a Codex plugin with
+`codex plugin remove <plugin-id>@thomasmartinsen`.
+
 ## Sources and maintenance
 
-The catalog is [`.github/plugin/marketplace.json`](.github/plugin/marketplace.json).
+Copilot reads [`.github/plugin/marketplace.json`](.github/plugin/marketplace.json);
+Codex reads [`.agents/plugins/marketplace.json`](.agents/plugins/marketplace.json).
+The catalogs use each client's supported Git source format.
 Each entry references `plugins/<plugin-id>` on `main` in
 [`thomasmartinsen/agents`](https://github.com/thomasmartinsen/agents).
 Agent instructions are not duplicated in this marketplace.
 
 The agents repository retains its original Copilot and Codex profiles and
-generates the plugin packages and this catalog from the Copilot profiles.
+generates the plugin packages and both catalogs from the Copilot profiles.
 See its [maintenance instructions](https://github.com/thomasmartinsen/agents#maintaining-plugins).
 Publish plugin changes in the agents repository before updating this catalog.
 References follow `main`, not immutable release SHAs.
 
-Plugins preserve the original agents' tool restrictions and safety boundaries.
+Copilot plugins preserve the original agents' tool restrictions and safety
+boundaries; Codex skills express tool boundaries as instructions, not enforced
+permissions.
 They draft content and advice; they do not add account access, publish content,
 send messages, or run background monitoring. Health Guardian does not provide
 medical diagnosis or treatment. Some profiles include sensitive personal and
