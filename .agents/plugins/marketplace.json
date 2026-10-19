@@ -181,6 +181,22 @@
       "category": "Productivity"
     },
     {
+      "name": "tpd-partner",
+      "description": "Spar with Thomas Martinsen on building Tech Passion Day, from conference strategy, speaker planning, and community partnerships to communications, social media, hosting, and event operations.",
+      "version": "1.0.1",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomasmartinsen/agents.git",
+        "ref": "main",
+        "path": "./plugins/tpd-partner"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    },
+    {
       "name": "video-scriptwriter",
       "description": "Write recordable short-form videos, technical explainers, and demo scripts about agentic engineering for Thomas Martinsen.",
       "version": "1.0.1",

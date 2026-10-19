@@ -1,7 +1,7 @@
 # Thomas Martinsen's plugin marketplace
 
 Independently installable GitHub Copilot CLI agents and Codex skills for content
-creation, research, strategy, capacity, relationships, and wellbeing.
+creation, research, conference planning, strategy, capacity, relationships, and wellbeing.
 
 ## Install in Copilot CLI
 
@@ -9,6 +9,7 @@ creation, research, strategy, capacity, relationships, and wellbeing.
 copilot plugin marketplace add thomasmartinsen/marketplace
 copilot plugin marketplace browse thomasmartinsen
 copilot plugin install linkedin-writer@thomasmartinsen
+copilot plugin install tpd-partner@thomasmartinsen
 ```
 
 Start a new Copilot CLI session and select the installed agent with `/agent`.
@@ -22,6 +23,7 @@ access to both. Registration does not install any agents automatically.
 codex plugin marketplace add thomasmartinsen/marketplace
 codex plugin list --marketplace thomasmartinsen --available --json
 codex plugin add linkedin-writer@thomasmartinsen
+codex plugin add tpd-partner@thomasmartinsen
 ```
 
 Start a new Codex session and ask it to use the installed plugin's skill.
@@ -48,6 +50,7 @@ thomasmartinsen/marketplace`. The repository now includes Codex's
 | `strategic-advisor` | Strategic options, assumption testing, and long-term decisions |
 | `technical-article-writer` | Source-backed developer tutorials and explainers |
 | `topic-researcher` | Timely content ideas and editorial briefs |
+| `tpd-partner` | Tech Passion Day strategy, speakers, communications, social media, hosting, and operations |
 | `video-scriptwriter` | Recordable video scripts and demo walkthroughs |
 
 ## Update or uninstall
